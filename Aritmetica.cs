@@ -31,7 +31,15 @@ namespace Calculos
             return x - y;
         }
 
-        
+        /// <summary>
+        /// Operação de multiplicar
+        /// </summary>
+        /// <returns>Retorna a multiplicação de dois números</returns>
+        public static int Multiplicar(int x, int y)
+        {
+            return x * y;
+        }
+
     }
 }
 
