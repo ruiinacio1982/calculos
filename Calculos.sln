@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculos", "Calculos.csproj", "{003C046D-8B84-4F5E-9E3A-7BE3D06E5782}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{4ACE1511-E361-4248-A761-96EF74F1BA99}"
-	ProjectSection(SolutionItems) = preProject
-		Aritmetica.cs = Aritmetica.cs
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

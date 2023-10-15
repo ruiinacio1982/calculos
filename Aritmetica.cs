@@ -1,24 +1,33 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public class Class1
+namespace Calculos
 {
 	/// <summary>
 	/// Implementa operações aritméticas.
 	/// </summary>
-	public Class1()
+	internal class Aritmetica
 	{
 		/// <summary>
 		/// Operação de soma
 		/// </summary>
-		/// <re
+		/// <returns>Retorna a soma de dois números</returns>
 		public int Somar(int x, int y)
-		{
-			return x+y;
-		}
+        {
+            return x + y;
+        }
 
-		public int Subtrair (int x, int y)
-		{
-			return x-y;
-		}
-	}
+        /// <summary>
+        /// Operação de subtrair
+        /// </summary>
+        /// <returns>Retorna a subtração  de dois números</returns>
+        public int Subtrair(int x, int y)
+        {
+            return x - y;
+        }
+    }
 }
+
